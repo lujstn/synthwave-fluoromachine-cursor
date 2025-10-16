@@ -1,5 +1,5 @@
-# Contributing to SynthWave '84
-So, you'd like to contribute to Synthwave '84? Awesome!
+# Contributing to Synthwave Fluoromachine (Cursor/VS Code)
+So, you'd like to contribute to Synthwave Fluoromachine? Awesome!
 
 However, before you make your changes, please get in touch to make the project owner aware of what you're proposing. The best way to do this is to raise an issue clearly detailing the change(s) you wish to make.
 
@@ -62,7 +62,7 @@ a project may be further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at hello@robbowen.digital. All
+reported by contacting the project maintainer at code@lucasco.de. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.

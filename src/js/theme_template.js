@@ -1,18 +1,21 @@
 (function () {
   //====================================
   // Theme replacement CSS (Glow styles)
+  // Updated for Fluoromachine color palette
   //====================================
   const tokenReplacements = {
-    /* Red */
-    'fe4450': "color: #fff5f6; text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c[NEON_BRIGHTNESS], 0 0 5px #fc1f2c[NEON_BRIGHTNESS], 0 0 25px #fc1f2c[NEON_BRIGHTNESS]; backface-visibility: hidden;",
-    /* Neon pink */
-    'ff7edb': "color: #f92aad; text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; backface-visibility: hidden;",
-    /* Yellow */
-    'fede5d': "color: #f4eee4; text-shadow: 0 0 2px #393a33, 0 0 8px #f39f05[NEON_BRIGHTNESS], 0 0 2px #f39f05[NEON_BRIGHTNESS]; backface-visibility: hidden;",
-    /* Green */
-    '72f1b8': "color: #72f1b8; text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55[NEON_BRIGHTNESS], 0 0 35px #212724[NEON_BRIGHTNESS]; backface-visibility: hidden;",
-    /* Blue */
-    '36f9f6': "color: #fdfdfd; text-shadow: 0 0 2px #001716, 0 0 3px #03edf9[NEON_BRIGHTNESS], 0 0 5px #03edf9[NEON_BRIGHTNESS], 0 0 8px #03edf9[NEON_BRIGHTNESS]; backface-visibility: hidden;"
+    /* Pink keywords (f92aad) */
+    'f92aad': "color: #f92aad; text-shadow: 0 0 2px #100c0f, 0 0 5px #f92aad[NEON_BRIGHTNESS], 0 0 10px #f92aad[NEON_BRIGHTNESS]; backface-visibility: hidden;",
+    /* Bright pink (fc199a) */
+    'fc199a': "color: #fc199a; text-shadow: 0 0 2px #100c0f, 0 0 5px #fc199a[NEON_BRIGHTNESS], 0 0 10px #fc199a[NEON_BRIGHTNESS]; backface-visibility: hidden;",
+    /* Purple strings (8a2dc0) */
+    '8a2dc0': "color: #8a2dc0; text-shadow: 0 0 2px #100c0f, 0 0 5px #8a2dc0[NEON_BRIGHTNESS], 0 0 10px #8a2dc0[NEON_BRIGHTNESS]; backface-visibility: hidden;",
+    /* Yellow tags (ffcc00) */
+    'ffcc00': "color: #ffcc00; text-shadow: 0 0 2px #393a33, 0 0 8px #ffcc00[NEON_BRIGHTNESS], 0 0 2px #ffcc00[NEON_BRIGHTNESS]; backface-visibility: hidden;",
+    /* Green (72f1b8) */
+    '72f1b8': "color: #72f1b8; text-shadow: 0 0 2px #100c0f, 0 0 10px #72f1b8[NEON_BRIGHTNESS], 0 0 35px #72f1b8[NEON_BRIGHTNESS]; backface-visibility: hidden;",
+    /* Cyan (36f9f6) */
+    '36f9f6': "color: #fdfdfd; text-shadow: 0 0 2px #001716, 0 0 3px #36f9f6[NEON_BRIGHTNESS], 0 0 5px #36f9f6[NEON_BRIGHTNESS], 0 0 8px #36f9f6[NEON_BRIGHTNESS]; backface-visibility: hidden;"
   };
 
   //=============================
@@ -49,7 +52,7 @@
    */
   const usingSynthwave = () => {
     const appliedTheme = document.querySelector('[class*="theme-json"]');
-    const synthWaveTheme = document.querySelector('[class*="RobbOwen-synthwave-vscode-themes"]');
+    const synthWaveTheme = document.querySelector('[class*="lujstn-synthwave-fluoromachine-cursor"]');
     return appliedTheme && synthWaveTheme;
   }
 

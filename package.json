@@ -1,14 +1,14 @@
 {
-    "name": "synthwave-vscode",
-    "displayName": "SynthWave '84",
-    "description": "A Synthwave-inspired colour theme to satisfy your neon dreams",
-    "version": "0.1.20",
-    "author": "Robb Owen",
-    "publisher": "RobbOwen",
+    "name": "synthwave-fluoromachine-cursor",
+    "displayName": "Synthwave Fluoromachine (Cursor/VS Code)",
+    "description": "Synthwave '84 x Fluoromachine with Epic 80s Animations - A neon-drenched theme for Cursor and VS Code",
+    "version": "0.2.0",
+    "author": "© Lucas Johnston Kurilov code@lucasco.de (https://lujstn.com, @lujstn)",
+    "publisher": "lujstn",
     "icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/robb0wen/synthwave-vscode"
+        "url": "https://github.com/lujstn/synthwave-fluoromachine-cursor"
     },
     "engines": {
         "vscode": "^1.33.0"
@@ -18,7 +18,11 @@
     ],
     "keywords": [
         "retro",
-        "80s"
+        "80s",
+        "synthwave",
+        "fluoromachine",
+        "neon",
+        "vaporwave"
     ],
     "categories": [
         "Themes"
@@ -31,7 +35,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "SynthWave '84",
+                "label": "Synthwave Fluoromachine (Cursor/VS Code)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/synthwave-color-theme.json"
             }
