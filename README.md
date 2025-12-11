@@ -35,7 +35,7 @@ Install from the VS Marketplace (once published) or install locally:
 
 ```bash
 cd synthwave-fluoromachine-cursor
-code --install-extension synthwave-fluoromachine-cursor-0.2.0.vsix
+code --install-extension synthwave-fluoromachine-cursor-0.2.1.vsix
 ```
 
 ## Enabling Neon Dreams
