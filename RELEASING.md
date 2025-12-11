@@ -117,7 +117,7 @@ Use `vsce publish` with `--packagePath` so it uploads the **same** `.vsix` you j
 ```bash
 export VSCE_PAT="your-marketplace-token"
 
-npx vsce publish   --packagePath synthwave-fluoromachine-cursor-0.2.1.vsix
+npx vsce publish --packagePath synthwave-fluoromachine-cursor-0.2.1.vsix
 ```
 
 This uses the `version` from `package.json` and the contents of the `.vsix` file you built.
@@ -129,7 +129,7 @@ Use `ovsx` to publish the **same** file:
 ```bash
 export OVSX_PAT="your-openvsx-token"
 
-npx ovsx publish synthwave-fluoromachine-cursor-0.2.1.vsix   -p "$OVSX_PAT"
+npx ovsx publish synthwave-fluoromachine-cursor-0.2.1.vsix -p "$OVSX_PAT"
 ```
 
 ---
@@ -166,6 +166,7 @@ After releasing, sanity-check:
 
       ```bash
       code --install-extension lujstn.synthwave-fluoromachine-cursor
+      cursor --install-extension lujstn.synthwave-fluoromachine-cursor
       ```
 
       (preferred), or
@@ -173,6 +174,7 @@ After releasing, sanity-check:
       ```bash
       # If installing manually from GitHub Releases
       code --install-extension synthwave-fluoromachine-cursor-0.2.1.vsix
+      cursor --install-extension synthwave-fluoromachine-cursor-0.2.1.vsix
       ```
 
 - VS Marketplace & OpenVSX pages:
