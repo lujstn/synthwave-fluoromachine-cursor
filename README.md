@@ -1,13 +1,23 @@
+### Synthwave '84 + Fluoromachine + Animations + Cursor? = 💙💜💖
 
 ![Theme demo GIF](./demo.gif)
 
-## Animations? Synthwave? Fluoromachine? Cursor? What's not to love 💙💜💖
+**How to install:**
+
+1. Install this extension from the Cursor/VS Code Marketplace.
+2. Open your command palette with `Ctrl + Shift + P` or `Shift + ⌘ + P`
+3. Choose "__Enable Neon Dreams__"
+4. Restart VS Code when prompted *(ignore any warnings about the theme being "corrupted")*
+5. Enjoy the neon glow!
+
+## synthwave-fluoromachine-cursor
 
 This is a fork of Robb Owen's excellent [Synthwave '84 theme](https://github.com/robb0wen/synthwave-vscode), merged with the iconic [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) color palette, and enhanced with [Epic 80s Animations](https://github.com/thecodemonkey/synthwave-x-fluoromachine-epic-animations). The result is a neon-drenched coding environment that combines the best of multiple worlds: the modern infrastructure of Synthwave '84, the vibrant purple and cyan aesthetics of Fluoromachine, and smooth retro animations.
 
 ![Theme screenshot](https://repository-images.githubusercontent.com/184457193/69dcff00-14d2-11ea-90e1-4bdf6fef80ca)
 
-__No external extensions needed!__ The glow effect is built-in and can be toggled on/off with simple commands.
+### No external extensions needed!
+The glow effect is built-in and can be toggled on/off with one simple command 🎉
 
 ## Features
 
@@ -32,19 +42,17 @@ code --install-extension synthwave-fluoromachine-cursor-0.2.0.vsix
 
 The theme works beautifully out of the box, but to enable the full neon glow effect:
 
+1. Set your active color theme to __Synthwave Fluoromachine (Cursor/VS Code)__
+2. Open your command palette with `Ctrl + Shift + P` or `Shift + ⌘ + P`
+3. **Choose "__Enable Neon Dreams__"**
+4. Restart VS Code when prompted
+
+The neon glow should now be active!
+
 ### Prerequisites
 
 - __Windows users__: You may need to run VS Code with administrator privileges
 - __Linux/Mac users__: Ensure VS Code is not installed in a read-only location and you have write permissions
-
-### Steps
-
-1. Set your active color theme to __Synthwave Fluoromachine (Cursor/VS Code)__
-2. Open your command palette with `Ctrl + Shift + P` or `Shift + ⌘ + P`
-3. Choose "__Enable Neon Dreams__"
-4. Restart VS Code when prompted
-
-The neon glow should now be active!
 
 ### Customizing the Glow
 
